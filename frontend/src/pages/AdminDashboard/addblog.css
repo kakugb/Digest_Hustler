@@ -1,0 +1,47 @@
+.prose {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+  
+  .prose strong {
+    font-weight: 700;
+    color: inherit;
+  }
+  
+  .prose em {
+    font-style: italic;
+    color: inherit;
+  }
+  
+  .prose a {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  .bg-transparent {
+    background: transparent;
+  }
+  
+  /* Add these styles to ensure proper layering */
+  .relative {
+    position: relative;
+  }
+  
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  
+  textarea {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+  }
+  
+  .formatted-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
